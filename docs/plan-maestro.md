@@ -5,7 +5,6 @@ Este documento unifica la visión de carrera, las bases metodológicas, el progr
 ---
 
 ## 👁️ Visión de Carrera y Filosofía del Estudiante
-- **Propósito Socioeconómico:** Salir del estancamiento económico mediante el desarrollo de software de alta calidad. El objetivo es ofrecer soluciones soberanas y eficientes a PyMEs regionales, financiando a la vez el derecho a disfrutar del arte, el ocio y la vida digna (cantar, bailar, acrobacias, leer en la playa).
 - **Enfoque Técnico:** Desarrollador con perfil hacia la Ingeniería de Software (*Software Engineer*). Robustez en el modelado de datos, diseño de APIs seguras y dominio del núcleo de Kotlin con miras a la soberanía Multiplataforma (KMP), manteniendo a Rust y Zig en el horizonte ideal a largo plazo.
 - **Ecosistema de Trabajo:** Máquina local (macOS/Unix), Git y Terminal como base cotidiana.
 
@@ -64,6 +63,10 @@ Este documento unifica la visión de carrera, las bases metodológicas, el progr
 ---
 
 ## 🚀 Fase 2: Hoja de Ruta Expandida (Hacia dónde apunto)
+
+> **Nota:** Este mapa representa mi horizonte técnico a largo plazo. Está sujeto a adaptaciones según las oportunidades del mercado laboral, manteniendo siempre el foco en la Ingeniería de Software.
+> 
+> 
 Este es el mapa total basado en los intereses del estudiante seleccionados de *roadmap.sh*. La Fase 1 dejará los cimientos listos para profundizar en estos pilares:
 
 <!-- AJUSTE --> **Orden sugerido por empleabilidad y dependencias técnicas** (el orden original se mantiene como contenido, pero se reorganiza la secuencia):
