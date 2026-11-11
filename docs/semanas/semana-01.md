@@ -13,8 +13,8 @@ Configurar el entorno de desarrollo, entender la diferencia entre `val` y `var`,
 
 ## 🧠 Conceptos a dominar
 - [x] JDK, JVM y por qué Kotlin corre sobre la JVM.
-- [ ] `val` vs `var` — inmutabilidad y sus implicancias.
-- [ ] Tipos primitivos y tipos por referencia en Kotlin.
+- [x] `val` vs `var` — inmutabilidad y sus implicancias.
+- [x] Tipos primitivos y tipos por referencia en Kotlin.
 - [ ] Flujo de control básico (`if`, `when` como expresión).
 - [x] `main()` y estructura de un archivo `.kt`.
 - [x] Git por terminal: `init`, `status`, `add`, `commit`, `log`, `push`.
@@ -36,6 +36,7 @@ Configurar el entorno de desarrollo, entender la diferencia entre `val` y `var`,
 
 ## 📓 Diario de la semana
 - **Día 1:** Configuración exitosa. Peleé con Vim y los tokens de GitHub, pero logré subir todo el proyecto y el README. Entendí cómo funciona el flujo básico de Git por consola.
+- **Día 2:** Práctica de variables y tipos de datos en el Playground. Entendí a fondo la diferencia entre Stack y Heap, cómo funciona la JVM y los Hilos Virtuales (¡y charlamos de Rust!).
 
 ---
 
@@ -59,4 +60,4 @@ Configurar el entorno de desarrollo, entender la diferencia entre `val` y `var`,
 ---
 
 ## 🎯 Próximo paso técnico
-- Entender `val` vs `var` y crear las entidades del gimnasio en memoria.
+- Entender `if`, `when`, Null Safety y modelar las entidades del gimnasio en memoria.
