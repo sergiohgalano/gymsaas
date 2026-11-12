@@ -15,7 +15,7 @@ Configurar el entorno de desarrollo, entender la diferencia entre `val` y `var`,
 - [x] JDK, JVM y por qué Kotlin corre sobre la JVM.
 - [x] `val` vs `var` — inmutabilidad y sus implicancias.
 - [x] Tipos primitivos y tipos por referencia en Kotlin.
-- [ ] Flujo de control básico (`if`, `when` como expresión).
+- [x] Flujo de control básico (`if`, `when` como expresión).
 - [x] `main()` y estructura de un archivo `.kt`.
 - [x] Git por terminal: `init`, `status`, `add`, `commit`, `log`, `push`.
 - [x] Qué es un `README.md` y por qué importa.
@@ -36,7 +36,8 @@ Configurar el entorno de desarrollo, entender la diferencia entre `val` y `var`,
 
 ## 📓 Diario de la semana
 - **Día 1:** Configuración exitosa. Peleé con Vim y los tokens de GitHub, pero logré subir todo el proyecto y el README. Entendí cómo funciona el flujo básico de Git por consola.
-- **Día 2:** Práctica de variables y tipos de datos en el Playground. Entendí a fondo la diferencia entre Stack y Heap, cómo funciona la JVM y los Hilos Virtuales (¡y charlamos de Rust!).
+- **Día 2:** Práctica de variables y tipos de datos en el Playground. Entendí a fondo la diferencia entre Stack y Heap, cómo funciona la JVM y los Hilos Virtuales (¡y charlamos de Rust!). 
+- **Día 3:** Aprendí estructuras de control (if, when), operadores lógicos y Null Safety. El compilador me salvó de un NullPointerException antes de ejecutar, demostrando la robustez de Kotlin.
 
 ---
 
@@ -60,4 +61,4 @@ Configurar el entorno de desarrollo, entender la diferencia entre `val` y `var`,
 ---
 
 ## 🎯 Próximo paso técnico
-- Entender `if`, `when`, Null Safety y modelar las entidades del gimnasio en memoria.
+- - Introducción a POO: Clases y Objetos (Usuario, Gimnasio, Turno).
