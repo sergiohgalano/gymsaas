@@ -1,12 +1,9 @@
-fun main () {
-    val nombre: String = "Sergio"
-    var cantidadDeAsistencias: Int = 0
-    var valorCuota: Double = 1500.50
+fun main() {
+    val nombreDeUsuario: String? = "Sergio"
+    val gimnasio: String = "Hybryd Gym"
 
-    println("Alumno: $nombre. Asistencias: $cantidadDeAsistencias. Cuota: $$valorCuota")
+    // El "?" después del nombre de la variable dice: "si es nulo, no hagas nada"
+    val cantidadDeLetras = nombreDeUsuario?.length
 
-    cantidadDeAsistencias ++
-
-    println("Nueva asistencia registrada. Total: $cantidadDeAsistencias")
-
+    println("El nombre tiene $cantidadDeLetras letras.")
 }
