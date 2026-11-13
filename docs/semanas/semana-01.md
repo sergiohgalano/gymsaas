@@ -19,6 +19,7 @@ Configurar el entorno de desarrollo, entender la diferencia entre `val` y `var`,
 - [x] `main()` y estructura de un archivo `.kt`.
 - [x] Git por terminal: `init`, `status`, `add`, `commit`, `log`, `push`.
 - [x] Qué es un `README.md` y por qué importa.
+- [x] Lectura de consola (readln) y conversión de tipos (.toInt, .toDouble).
 
 ---
 
@@ -38,6 +39,7 @@ Configurar el entorno de desarrollo, entender la diferencia entre `val` y `var`,
 - **Día 1:** Configuración exitosa. Peleé con Vim y los tokens de GitHub, pero logré subir todo el proyecto y el README. Entendí cómo funciona el flujo básico de Git por consola.
 - **Día 2:** Práctica de variables y tipos de datos en el Playground. Entendí a fondo la diferencia entre Stack y Heap, cómo funciona la JVM y los Hilos Virtuales (¡y charlamos de Rust!). 
 - **Día 3:** Aprendí estructuras de control (if, when), operadores lógicos y Null Safety. El compilador me salvó de un NullPointerException antes de ejecutar, demostrando la robustez de Kotlin.
+- **Día 4 (Viernes de Soberanía):** Resolví un desafío de lógica de negocio complejo (control de acceso al gimnasio) sin ayuda de la IA. Aprendí a usar readln(), conversión de tipos y a manejar Strings vacíos.
 
 ---
 
