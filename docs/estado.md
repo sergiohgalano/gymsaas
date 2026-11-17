@@ -1,30 +1,25 @@
 # 🔄 Estado de Capacitación de Kotlin / Sistemas
 
 ## 🗓️ Contexto Actual
-- **Semana:** Semana 1 (Viernes de Soberanía - Completado)
-- **Proyecto Conductor:** Lógica de acceso a GymSaaS (interactiva por consola).
-- **Conceptos Clave de Hoy:** Lectura por consola (`readln()`), conversión de tipos (`.toInt()`, `.toDouble()`), evaluación de Strings vacíos (`.isBlank()`), `when` sin variable y lógica de negocio.
+- **Semana:** Semana 2 (Día 1)
+- **Proyecto Conductor:** Introducción a POO. Modelado de la entidad `Usuario` como `data class`.
+- **Conceptos Clave de Hoy:** Clase vs Objeto, `data class`, inmutabilidad de la identidad y mutabilidad del estado.
 
 ## 📌 Progreso y Tareas
-- [x] Configurar el entorno de desarrollo local (JDK 25, IntelliJ/Gradle).
-- [x] Crear el primer programa "Hola Mundo" en Kotlin.
-- [x] Hacer el primer Commit y Push a un repositorio de GitHub.
-- [x] Definir las variables iniciales para almacenar los datos del gimnasio de prueba en memoria.
-- [x] Practicar con tipos de datos y operadores aritméticos.
-- [x] Implementar lógica condicional (`if`, `when`) y manejo de nulos (Null Safety).
-- [x] Superar el desafío offline (Viernes de Soberanía) sin ayuda de la IA.
+- [x] Completar Semana 1 (Variables, Lógica, Null Safety y Desafío de Soberanía).
+- [x] Crear y comprender el uso de `data class` (entidad Usuario).
+- [x] Instanciar objetos y acceder a sus propiedades.
+- [ ] Completar el modelado de las entidades `Gimnasio` y `Turno`.
 
 ## 🛠️ Bloqueos / Últimos Errores
-- El operador Elvis (`?:`) no es aplicable directamente a `readln()` porque este nunca devuelve `null`, sino un String vacío (`""`). Solucionado usando `if/else` (o `.ifBlank`).
+- Ninguno. El entorno y el flujo de Git están funcionando correctamente.
 
 ## 🧠 Concepto que NO entendí del todo (para repasar offline)
 - 
 
 ## 📝 Decisión técnica que tomé esta semana (y por qué)
-- **Usar la consola para Git:** Para ganar control real sobre los commits y prepararme para entornos Linux.
-- **Usar OpenJDK 25:** Porque es LTS, forzando la actualización a Kotlin 2.x.
-- **Tipar explícitamente las variables (Long, Int, Byte):** Para mayor seguridad y eficiencia en el uso de memoria.
-- **Uso de `when` sin variable:** Para evaluar múltiples condiciones de rechazo de forma más limpia que anidando múltiples `if/else`.
+- **Usar `data class` para las entidades:** Porque generan automáticamente métodos útiles como `toString()` y `equals()`.
+- **Inmutabilidad de la identidad:** El `id`, `nombre` y `edad` son `val` porque no cambian durante la vida del objeto. El `saldo` es `var` porque es un estado dinámico que se modifica con el uso.
 
 ## 🎯 Próximo Paso Técnico
-- Introducción a Programación Orientada a Objetos (POO): Creación de `data class` para modelar `Usuario`, `Gimnasio` y `Turno`.
+- Agregar funcionalidad (métodos) a la clase `Usuario` y crear la entidad `Gimnasio`.
