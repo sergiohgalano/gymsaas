@@ -31,7 +31,7 @@ Comprender los fundamentos de la Programación Orientada a Objetos (POO). Modela
 ---
 
 ## 📓 Diario de la semana
-- **Día 1:**
+- **Día 1:** Entendí la diferencia entre `class` y `data class`. Creé la entidad `Usuario` con `id`, `nombre` y `saldo` (mutable). Creé la clase `Gimnasio` con el método `reservarTurno(usuario: Usuario)`. Entendí que los métodos pueden interactuar con otras clases. Decidimos implementar un nuevo esquema de estudio (Teoría pura -> Práctica aplicada -> Práctica libre).
 
 ---
 
@@ -50,3 +50,4 @@ Comprender los fundamentos de la Programación Orientada a Objetos (POO). Modela
 
 ## 🎯 Próximo paso técnico
 - Modelar `Gimnasio` y `Turno`, y empezar a usar objetos dentro de otros objetos (relaciones).
+- Teoría de funciones (retornos, parámetros, extensiones) y su aplicación en las entidades de GymSaaS.
